@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.form_header
+{
+    color:#036;
+    width:100%;
+    text-align:center;
+    white-space:nowrap;
+}
+
+input, label{
+    color:#333 !important; 
+}
+
+input[type=tel]:invalid {
+    box-shadow: 0px 0px 2px 1px red; 
+}
+input[type=tel]:valid {
+    box-shadow: 0px 0px 2px 1px green; 
+}
+input[type=tel]{
+    border-color:#808080;
+}
